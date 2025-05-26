@@ -16,7 +16,7 @@ console.log("Cloudinary Cloud Name :", process.env.CLOUDINARY_CLOUD_NAME);
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: ["http://localhost:5173"], credentials: true }));
+app.use(cors({ origin: ["http://localhost:5173", "https://adslider-frontend.vercel.app"], credentials: true }));
 
 // API Routes
 app.use("/api/dashboard", dashboardRoutes);
