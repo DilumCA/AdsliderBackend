@@ -11,6 +11,8 @@ const app = express();
 
 // DB Connection
 connectMongo();
+console.log("MONGO_URI:", process.env.MONGO_URI);
+console.log("Cloudinary Cloud Name:", process.env.CLOUDINARY_CLOUD_NAME);
 
 // Middleware
 app.use(express.json());
