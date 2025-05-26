@@ -21,7 +21,7 @@ app.use("/api/dashboard", dashboardRoutes);
 
 // Test route
 app.get("/", (req, res) => {
-  res.send("Mobile Ad Dashboard API is running...");
+  res.send("Mobile Ad Dashboard API is running.....");
 });
 
 
